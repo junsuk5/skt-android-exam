@@ -1,5 +1,9 @@
 package com.surivalcoding.androidexam.day1;
 
+interface Named {
+    String getName();
+}
+
 public class Person {
     public static int MAX_HP = 50;
 
